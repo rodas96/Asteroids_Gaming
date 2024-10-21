@@ -42,7 +42,7 @@ def main():
                     asteroid.split()
             if player.collision(asteroid):
                 print("Game Over!")
-                # sys.exit()
+                sys.exit()
         pygame.display.flip()
 
         # limit the framerate to 60 FPS
